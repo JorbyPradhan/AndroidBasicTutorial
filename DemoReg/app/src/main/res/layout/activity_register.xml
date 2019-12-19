@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    >
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteY="16dp" />
+    <Button
+        android:layout_below="@id/imageView"
+        android:id="@+id/cImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="ChooseImg"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="161dp" />
+
+    <EditText
+        android:layout_below="@+id/cImg"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:hint="Name"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:hint="Enter NRC Number"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_below="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="20dp"
+        android:hint="Age"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/dob"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/editText2">
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Dob"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Set Dob"
+            android:textSize="20sp"
+            android:onClick="onDateClicked"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <!--<EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:background="#fff"
+        android:paddingLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:inputType="textPersonName"
+        android:hint="DOB"
+        android:onClick="onDateClicked"
+        android:textSize="20sp"
+        />-->
+    <RadioGroup
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/gender"
+       >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/male"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/female"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_below="@+id/gender"
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:hint="Father Name"
+        android:textSize="20sp" />
+    <EditText
+        android:layout_below="@+id/editText5"
+        android:id="@+id/editText6"
+        android:layout_width="407dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:hint="EMail"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:layout_below="@+id/editText6"
+        android:id="@+id/editText7"
+        android:layout_width="407dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:hint="Phone"
+        android:textSize="20sp" />
+    <Button
+        android:layout_below="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20sp"
+        android:id="@+id/reg"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
+</ScrollView>

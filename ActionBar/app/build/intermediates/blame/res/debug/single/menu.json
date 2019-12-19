@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\android\\Project\\ActionBar\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\android\\Project\\ActionBar\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_actions.xml",
+        "source": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\menu\\activity_main_actions.xml"
+    }
+]

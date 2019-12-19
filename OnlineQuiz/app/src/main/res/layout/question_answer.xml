@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.onlinequiz.Question_Answer_Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score : 0"
+        android:textSize="20sp"
+        android:id="@+id/score"
+        android:freezesText="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Difficulty: "
+        android:textSize="20sp"
+        android:id="@+id/text_view_difficulty"
+        android:freezesText="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:textSize="20sp"
+        android:id="@+id/text_view_cate"
+        android:freezesText="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_count"
+        android:text="Question: 1/x"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:freezesText="true"
+        android:layout_alignParentLeft="true" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="00:30"
+        android:textSize="40sp"
+        android:id="@+id/quiztime"
+        android:freezesText="true"
+        android:layout_gravity="right"/>
+</LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        card_view:cardBackgroundColor="@color/colorPrimaryDark"
+        android:background="#123321"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Question\nThis is Question\nThis is Question\n"
+        android:id="@+id/question1"
+        android:freezesText="true"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        />
+    </androidx.cardview.widget.CardView>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/group"
+        android:layout_marginTop="10dp"
+      >
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Option1"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/op1"
+            android:freezesText="true"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Option2"
+            android:layout_marginLeft="5dp"
+            android:freezesText="true"
+            android:id="@+id/op2"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/op3"
+            android:layout_marginLeft="5dp"
+            android:freezesText="true"
+            android:text="Option3adsfasdfa"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/op4"
+            android:layout_marginLeft="5dp"
+            android:freezesText="true"
+            android:text="Option4dsfsdfasdfadfnak"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:text="Confirm"
+        android:id="@+id/confrim"
+        android:freezesText="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

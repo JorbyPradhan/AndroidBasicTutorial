@@ -1,0 +1,315 @@
+[
+    {
+        "outputFile": "D:\\android\\Project\\ActionBar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 66,
+                    "endOffset": 231
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 679,
+                        "endColumn": 66,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 236,
+                    "endColumn": 52,
+                    "endOffset": 284
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 581,
+                        "endColumn": 52,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 289,
+                    "endColumn": 44,
+                    "endOffset": 329
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 634,
+                        "endColumn": 44,
+                        "endOffset": 674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 334,
+                    "endColumn": 64,
+                    "endOffset": 394
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 465,
+                        "endColumn": 64,
+                        "endOffset": 525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 399,
+                    "endColumn": 50,
+                    "endOffset": 445
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 530,
+                        "endColumn": 50,
+                        "endOffset": 576
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 450,
+                    "endColumn": 47,
+                    "endOffset": 493
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 417,
+                        "endColumn": 47,
+                        "endOffset": 460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 498,
+                    "endColumn": 52,
+                    "endOffset": 546
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 52,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 551,
+                    "endColumn": 66,
+                    "endOffset": 613
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 308,
+                        "endColumn": 66,
+                        "endOffset": 370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 618,
+                    "endColumn": 47,
+                    "endOffset": 661
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 47,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 666,
+                    "endColumn": 57,
+                    "endOffset": 719
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 57,
+                        "endOffset": 265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 724,
+                    "endColumn": 50,
+                    "endOffset": 770
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 50,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 775,
+                    "endColumn": 54,
+                    "endOffset": 825
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 772,
+                        "endColumn": 54,
+                        "endOffset": 822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 830,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 1121
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1126,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1281
+                },
+                "from": {
+                    "file": "D:\\android\\Project\\ActionBar\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 684
+                    }
+                }
+            }
+        ]
+    }
+]

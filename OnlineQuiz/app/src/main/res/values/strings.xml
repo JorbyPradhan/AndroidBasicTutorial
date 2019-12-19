@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OnlineQuiz</string>
+    <array name="Language">
+        <item>Programming</item>
+        <item>Math</item>
+    </array>
+</resources>

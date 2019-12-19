@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\android\Project\ActionBar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3e3fbf965b4c188f4d40e4734f2062902ae8c9d1">
+        <dex dex="D:\android\Project\ActionBar\app\build\intermediates\pre-dexed\debug\instant-run_7a7edbbd766764596e233e2a45629644e3902075.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\Project\ActionBar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="41abdc899b17de3cd8422d45a829de4349029b84">
+        <dex dex="D:\android\Project\ActionBar\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_13bae936bc12f2517a875822f176d7519841d890.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\android\Project\ActionBar\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_26debfa5b69bfdb96bebd84db3ba92aefb7f9ddf.jar" />
+    </item>
+
+</items>
