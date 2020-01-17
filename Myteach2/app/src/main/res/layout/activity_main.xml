@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_dob"
+        android:clickable="true"
+        android:inputType="none"
+        android:paddingLeft="20dp"
+        android:cursorVisible="false"
+        android:hint="Enter Date of Birth"
+        />
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="male"
+            android:id="@+id/male"
+            android:onClick="OnRadioButtonClicked"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="female"
+            android:id="@+id/female"
+            android:onClick="OnRadioButtonClicked"
+            />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Select Blood Type"
+        android:layout_marginTop="10dp"/>
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/select_bloodtype"
+        android:entries="@array/blood"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Favourite OS"
+        />
+    <CheckBox
+    android:id="@+id/chkIos"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="IOS" />
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android" />
+    <CheckBox
+        android:id="@+id/chkLinux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linux" />
+
+    <CheckBox
+        android:id="@+id/chkWindows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Window" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Save"
+    android:id="@+id/btn_Save"
+    />
+</LinearLayout>

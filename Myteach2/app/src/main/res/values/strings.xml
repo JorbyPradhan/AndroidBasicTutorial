@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Myteach2</string>
+    <string-array name="blood">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+</resources>
